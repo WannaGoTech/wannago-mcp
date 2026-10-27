@@ -1,0 +1,53 @@
+{
+  "name": "wannago-mcp",
+  "version": "3.0.0",
+  "description": "WannaGo MCP & ACP — All-in-One AI Brand Identity Kit, Multilingual Production Websites, 20s Launch Video (brag.mp4) & 9-Platform Social Media Automation Server. Free 3-day trial key via contact@wannago.tech",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "wannago-mcp": "dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "acp",
+    "agent-control-protocol",
+    "antigravity",
+    "antigravity-plugin",
+    "claude-mcp",
+    "cursor-mcp",
+    "brand-identity",
+    "brand-kit-generator",
+    "wcag-accessibility",
+    "website-generator",
+    "launch-video",
+    "social-media-automation",
+    "twitter-automation",
+    "linkedin-automation",
+    "instagram-automation",
+    "tiktok-automation",
+    "youtube-automation",
+    "bluesky",
+    "threads",
+    "reddit",
+    "android-adb",
+    "wannago",
+    "wannagotech"
+  ],
+  "author": "WannaGoTech <contact@wannago.tech>",
+  "license": "PROPRIETARY",
+  "homepage": "https://github.com/WannaGoTech/wannago-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WannaGoTech/wannago-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WannaGoTech/wannago-mcp/issues",
+    "email": "contact@wannago.tech"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "playwright": "^1.51.0",
+    "zod": "^3.24.2"
+  }
+}

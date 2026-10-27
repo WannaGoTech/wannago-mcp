@@ -1,0 +1,33 @@
+name: "🚀 Abonnement Pro / Agency / Enterprise (wgo_live_...)"
+description: "Activer une licence commerciale sans interruption (Mensuel, Annuel ou Multi-postes Agency)."
+title: "[PRO-LICENSE] Licence commerciale : "
+labels: ["pro-license", "enterprise"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contact direct : **[contact@wannago.tech](mailto:contact@wannago.tech?subject=Abonnement%20WannaGo%20MCP%20Pro)**
+  - type: input
+    id: company
+    attributes:
+      label: "Société / Agence"
+      placeholder: "Nom de votre société"
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: "Email de facturation / Contact Email"
+      placeholder: "contact@societe.com"
+    validations:
+      required: true
+  - type: dropdown
+    id: plan
+    attributes:
+      label: "Formule souhaitée"
+      options:
+        - Pro Mensuel (30 jours renouvelable)
+        - Pro Annuel (365 jours)
+        - Agency / Enterprise (Multi-marques & Multi-postes)
+    validations:
+      required: true

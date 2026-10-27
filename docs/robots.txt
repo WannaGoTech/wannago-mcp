@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wannagotech.github.io/wannago-mcp/sitemap.xml

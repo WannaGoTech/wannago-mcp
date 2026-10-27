@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "📩 Recevoir une Clé d'Essai 72h par Email (contact@wannago.tech)"
+    url: "mailto:contact@wannago.tech?subject=Demande%20Cle%20Essai%20Gratuit%203%20Jours%20WannaGo%20MCP"
+    about: "Envoyez un email direct à contact@wannago.tech pour recevoir votre clé wgo_trial_... valable 72h."
+  - name: "🌐 Site Officiel & Documentation SEO WannaGo MCP"
+    url: "https://wannagotech.github.io/wannago-mcp/"
+    about: "Consultez le guide d'intégration complet pour Antigravity, Claude, Cursor et Windsurf."

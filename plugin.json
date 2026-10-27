@@ -1,0 +1,12 @@
+{
+  "name": "wannago",
+  "version": "3.0.0",
+  "description": "WannaGo MCP & ACP (by WannaGoTech) — All-in-One Brand Identity, Production Websites (FR/EN/DE/AR), 20s Launch Video (brag.mp4) & 9-Platform Social Media Automation Suite. Trial & License Key: contact@wannago.tech",
+  "author": {
+    "name": "WannaGoTech",
+    "email": "contact@wannago.tech"
+  },
+  "mcpServers": "./mcp_config.json",
+  "skills": "./skills",
+  "rules": "./rules"
+}

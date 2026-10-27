@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wannago-mcp": {
+      "command": "node",
+      "args": [
+        "./dist/index.js"
+      ],
+      "env": {
+        "WANNAGO_API_KEY": "DEMANDEZ_VOTRE_CLE_ESSAI_3_JOURS_A_contact@wannago.tech"
+      }
+    }
+  }
+}
