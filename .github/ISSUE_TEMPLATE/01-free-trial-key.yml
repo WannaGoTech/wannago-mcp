@@ -1,0 +1,34 @@
+name: "Demander une Clé d'Essai Gratuit 72h / Request 72h Free Trial Key"
+description: "Recevez votre clé WANNAGO_API_KEY (wgo_trial_...) valable 3 jours (72h) pour débloquer les 23 outils WannaGo MCP & ACP."
+title: "[TRIAL-72H] Demande de clé d'essai : "
+labels: ["trial-key", "licensing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Bienvenue sur WannaGo MCP & ACP v3.0
+        Pour une réception directe par email, écrivez à **[contact@wannago.tech](mailto:contact@wannago.tech?subject=Demande%20Cle%20Essai%20Gratuit%203%20Jours%20WannaGo%20MCP)**.
+  - type: input
+    id: email
+    attributes:
+      label: "Votre Email Professionnel / Business Email"
+      placeholder: "vous@entreprise.com"
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: "Agent IA utilisé / Primary AI Client"
+      options:
+        - Google Antigravity
+        - Claude Desktop / Claude Code
+        - Cursor
+        - Windsurf
+        - Autre client MCP
+    validations:
+      required: true
+  - type: textarea
+    id: project
+    attributes:
+      label: "Votre Marque ou Projet / Brand or Use Case"
+      placeholder: "Décrivez brièvement la marque ou le produit que vous souhaitez lancer avec WannaGo MCP..."

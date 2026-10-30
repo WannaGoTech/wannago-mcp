@@ -1,0 +1,32 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "wannago",
+  "displayName": "WannaGo",
+  "version": "3.0.0",
+  "description": "All-in-One WCAG Brand Identity, Multilingual Websites (WordPress & Pressable), Everything-API, 20s Promo.mp4 Video & 9-Platform Social Automation.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Launch my complete brand identity, 4 multilingual websites, and 20s Promo.mp4 video from my logo and business description",
+    "Generate 9-platform social media profile packs (bios, 800x800 avatars, cover banners) and publish our launch campaign",
+    "Convert my website into a live REST & OpenAPI 3.1 service and deploy our WordPress block theme to Pressable"
+  ],
+  "author": {
+    "name": "WannaGoTech",
+    "email": "contact@wannago.tech",
+    "url": "https://wannagotech.github.io/wannago-mcp/"
+  },
+  "homepage": "https://wannagotech.github.io/wannago-mcp/",
+  "repository": "https://github.com/WannaGoTech/wannago-mcp",
+  "license": "Proprietary",
+  "keywords": [
+    "wannago",
+    "branding",
+    "design-system",
+    "wordpress",
+    "pressable",
+    "promo-video",
+    "social-media",
+    "everything-api",
+    "wcag"
+  ]
+}
