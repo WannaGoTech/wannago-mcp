@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.wannagotech/wannago-mcp",
+  "title": "WannaGo MCP & ACP v3.1 (36 Tools)",
+  "description": "All-in-One WCAG Brand Identity, 4 Multilingual Websites, WordPress/Pressable Single-Site Collaborator Isolation, Everything-API, 20s Promo.mp4 Video, Anti-AI Visual Audit & 9-Platform Social Marketing Suite.",
+  "version": "3.1.0",
+  "license": "MIT",
+  "homepage": "https://wannagotech.github.io/wannago-mcp/",
+  "repository": {
+    "url": "https://github.com/WannaGoTech/wannago-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registry_type": "npm",
+      "identifier": "wannago-mcp",
+      "version": "3.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environment_variables": [
+        {
+          "name": "WANNAGO_API_KEY",
+          "description": "Cryptographically signed 72h trial key (wgo_trial_...) or Pro license key (wgo_live_...) from contact@wannago.tech",
+          "is_required": true,
+          "is_secret": true
+        }
+      ]
+    }
+  ],
+  "security": {
+    "defaultDryRun": true,
+    "humanInTheLoopGatekeeper": "wannago_interactive_discovery",
+    "singleSiteTenantIsolation": "wannago_pressable_collaborator_isolation",
+    "optInHardwareGateway": true,
+    "readOnlyToolsCount": 16,
+    "totalToolsCount": 36
+  }
+}
