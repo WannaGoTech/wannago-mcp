@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "wannago-mcp": {
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/dist/index.js"
+      ],
+      "env": {
+        "WANNAGO_API_KEY": "${WANNAGO_API_KEY}"
+      },
+      "variables": [
+        {
+          "name": "WANNAGO_API_KEY",
+          "title": "WannaGo License Key (wgo_trial_... or wgo_live_...)",
+          "description": "Enter your 3-day (72h) free trial key (wgo_trial_...) or Pro license key (wgo_live_...) from contact@wannago.tech.",
+          "link": "https://github.com/WannaGoTech/wannago-mcp/issues/new/choose"
+        }
+      ]
+    }
+  }
+}
